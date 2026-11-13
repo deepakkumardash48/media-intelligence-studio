@@ -1,0 +1,42 @@
+# --- Speech-to-text + translation to English ---
+openai-whisper
+faster-whisper
+torch
+torchaudio
+soundfile
+pydub
+librosa
+numpy
+
+# --- Real-time mic input ---
+sounddevice
+webrtcvad-wheels
+
+# --- LangChain + Mistral (summary, action items, key decisions) ---
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-mistralai
+pydantic
+
+# --- RAG with Hugging Face ---
+transformers
+sentence-transformers
+huggingface-hub
+langchain-huggingface
+faiss-cpu
+# (alternative vector store: chromadb + langchain-chroma)
+
+# --- UI (pick one) ---
+streamlit
+streamlit-webrtc
+# gradio
+
+# --- Utilities ---
+python-dotenv
+requests
+tqdm
+
+# --- YouTube audio download ---
+yt-dlp
